@@ -1,0 +1,28 @@
+{
+  "name": "devsecops-demo",
+  "version": "1.0.0",
+  "description": "A DevSecOps CI/CD pipeline demonstration project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "devsecops",
+    "ci-cd",
+    "github-actions",
+    "docker",
+    "security-scanning"
+  ],
+  "author": "Umair",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0"
+  }
+}
+
