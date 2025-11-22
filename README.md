@@ -9,14 +9,10 @@ This project demonstrates a complete **DevSecOps CI pipeline** using **GitHub Ac
 
 This repository highlights the following real-world DevOps capabilities:
 
-- ✔️ Automated CI pipeline using GitHub Actions  
-- ✔️ Linting & code quality checks with **ESLint**  
-- ✔️ Unit testing with **Jest**  
-- ✔️ **SAST (Static Application Security Testing)** with **Semgrep**  
-- ✔️ **Dependency scanning** with **Trivy**  
-- ✔️ **Container image scanning** with Trivy  
-- ✔️ Docker image build and push to Docker Hub  
-- ✔️ Modular folder structure and clean development workflow  
+- Automated CI pipeline using GitHub Actions  
+- Linting & code quality checks with **ESLint**  
+- Unit testing with **Jest**  
+- **Container image scanning** with Trivy  
 
 ---
 
@@ -154,10 +150,8 @@ GitHub → Actions → CI / DevSecOps Pipeline
 
 ##  Why This Project Matters
 
-This repo is purposely simple but demonstrates end-to-end DevSecOps thinking:
+This repo is purposely simple but demonstrates end-to-end DevSecOps best practices:
 
 - CI/CD automation
-- Security embedded early in SDLC ("shift-left")
-- Testing + quality checks
-- Reproducible builds
-- Clean version-controlled pipeline
+- Security scan
+- Quality checks
