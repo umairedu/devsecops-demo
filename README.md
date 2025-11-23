@@ -121,7 +121,7 @@ docker run umairedu/devsecops-demo:latest
 
 ## Security Tools Used
 
-### 🔎 Semgrep
+### Semgrep
 Fast, powerful static analysis to detect code vulnerabilities:
 - Insecure functions
 - Weak regex patterns
@@ -145,13 +145,3 @@ You can see results under:
 ```
 GitHub → Actions → CI / DevSecOps Pipeline
 ```
-
----
-
-##  Why This Project Matters
-
-This repo is purposely simple but demonstrates end-to-end DevSecOps best practices:
-
-- CI/CD automation
-- Security scan
-- Quality checks
