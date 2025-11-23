@@ -37,14 +37,6 @@ jobs:
           config: "p/ci"
 
       # 6. Dependency Scan - Trivy
-      # - name: Run Trivy Scan
-      #   uses: aquasecurity/trivy-action@master
-      #   with:
-      #     scan-type: fs
-      #     ignore-unfixed: true
-      #     severity: HIGH,CRITICAL
-      #     exit-code: 1
-      #     path: .
       - name: Run Trivy Scan
         uses: aquasecurity/trivy-action@master
         with:
@@ -55,7 +47,6 @@ jobs:
           severity: 'LOW,MEDIUM,HIGH,CRITICAL'
           ignore-unfixed: false
           scanners: 'vuln,misconfig,secret'
-          args: '--skip-version-check'
 
       # 7. Set up Docker Buildx
       - name: Set up Docker Buildx
