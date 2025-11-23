@@ -54,7 +54,8 @@ jobs:
           output: 'trivy-results.json'
           severity: 'LOW,MEDIUM,HIGH,CRITICAL'
           ignore-unfixed: false
-          scanners: 'vuln,config,secret'
+          scanners: 'vuln,misconfig,secret'
+          args: '--skip-version-check'
 
       # 7. Set up Docker Buildx
       - name: Set up Docker Buildx
