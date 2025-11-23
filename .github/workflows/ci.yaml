@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  devsecops:
+  dev_secops:
     runs-on: ubuntu-latest
 
     steps:
