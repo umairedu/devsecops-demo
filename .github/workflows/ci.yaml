@@ -90,10 +90,6 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-        with:
-          username: ${{ secrets.DOCKERHUB_CI_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_CI_PASSWORD }}
-
       - name: Build and Push Docker Image
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         uses: docker/build-push-action@v5
